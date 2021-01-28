@@ -1,0 +1,108 @@
+body {
+    font-family: "Avenir Next";
+  }
+  
+  li {
+    list-style: none;
+   
+  }
+  
+  .header {
+    background-color: white;
+    color: #fff;
+    height: 90px;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    color: black;
+  }
+  
+  .header-list li {
+    float: right;
+    padding: 33px 20px;
+    color: black;
+  }
+  
+  .main {
+    background-color: #bdf7f1;
+    height: 710px;
+  }
+  
+  .footer {
+    background-color: white;
+    height:120px;
+    padding:40px 40px;
+    color:#fff;
+  }
+  
+  .footer-logo{
+    font-size:32px;
+    float:left;
+    color: black;
+  }
+  .footer-list{
+    float:right;
+    color: black;
+    
+  }
+  .footer-list li{
+    padding-bottom:20px;
+  }
+  .main h1{
+      text-align: center;
+  }
+  .main h2{
+      text-align: center;
+  }
+  .main img{
+      width: 200px;
+      height: 200px;
+      
+  }
+  .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  .footer-icon {
+      display: block;
+      margin-left: 40%;
+      margin-right: 50%;
+      width: 50%;
+      
+  }
+  .main-content{
+      text-align: left;
+  }
+  .main-content h2{
+      text-align: left;
+      margin-left: 80px;
+  }
+  .main-content ul{
+      margin-left: 40px;
+      font-size: medium;
+  }
+  button {
+    background: #ededed;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+      margin-left: 40%;
+      margin-right: 50%;
+      width: 50%;
+    
+  }
+  
+  button:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
